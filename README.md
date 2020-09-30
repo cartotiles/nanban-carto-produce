@@ -8,10 +8,7 @@ cd nanban-carto-produce
 docker build -t nanban-carto-produce .  
 docker run -it --rm -v ${PWD}:/data nanban-carto-produce  
 
-git clone https://github.com/cartotiles/cartdata-produce  
 cd cartdata-produce  
-npm install  
- 
 (please prepare the data at the proper locations)    
 vi config/default.hjson  //edit config setting  
 
