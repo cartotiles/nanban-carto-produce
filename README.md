@@ -9,8 +9,8 @@ docker build -t nanban-carto-produce .
 docker run -it --rm -v ${PWD}:/data nanban-carto-produce  
  
 cd cartdata-produce  
-(please prepare the data at the proper locations)  
-vi config/default.hjson  //edit config setting
-mkdir /data/mbtiles/une   //mbtilesDir
+(please prepare the data at the proper locations)    
+vi config/default.hjson  //edit config setting  
+mkdir /data/mbtiles/une   //mbtilesDir  
 
 node index.js  
