@@ -3,7 +3,7 @@ docker file for cartdata-produce
 
 # How to use
 docker rmi nanban-carto-produce  
-git clone git@github.com:cartotile/nanban-carto-produce  
+git clone git@github.com:cartotiles/nanban-carto-produce  
 cd nanban-carto-produce  
 docker build -t nanban-carto-produce .  
 docker run -it --rm -v ${PWD}:/data nanban-carto-produce  
